@@ -295,10 +295,17 @@ footer svg.svg-inline--fa{
 footer svg.svg-inline--fa:hover{
     color: #2980b9 !important;
     letter-spacing: 2px;
+    transition: 300ms;
 }
 
 .fa{
     letter-spacing: 5px;
+}
+
+.fa:hover{
+    color: #2980b9 !important;
+    transition: 300ms;
+
 }
 
 h3.socket{
