@@ -110,6 +110,10 @@ body{
     border-color: #3498db;
 }
 
+.ali{
+    border-radius: 50%;
+}
+
 /* --- Feature Section */
 
 .jumbotron{
@@ -169,6 +173,11 @@ h3.heading{
 
 .clients-hr{
     border-top: .05rem solid #2980b9;
+}
+
+/* --- About --- */
+.lead{
+    text-align: justify;
 }
 
 /* --- Contact Section --- */
