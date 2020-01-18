@@ -75,12 +75,12 @@ body{
     padding-bottom: 1.6rem;
 }
 
-.btn-lg{
+/* .btn-lg{
     border-width: medium;
     border-radius: 0;
     padding: .6rem 1.3rem;
     font-size: 1rem;
-}
+} */
 
 /* --- Course Section --- */
 .narrow{
@@ -93,7 +93,72 @@ body{
     font-size: 2.4rem;
 }
 
-.btn-secondary{
+#btn-5{
+    text-decoration: none;
+}
+
+#btn-5{
+    display: inline-block;
+    position: relative;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 20px 30px;
+    background: rgba(0,0,0,0.09);
+}
+span{
+    display: block;
+    padding: 10px 10px;
+}
+#btn-5::before, #btn-5::after{
+    content:"";
+    width: 0;
+    height: 2px;
+    position: absolute;
+    transition: all 0.2s linear;
+    background: #fff;
+}
+  
+span::before, span::after{
+    content:"";
+    width:2px;
+    height:0;
+    position: absolute;
+    transition: all 0.2s linear;
+    background: #fff;
+}
+#btn-5:hover::before, #btn-5:hover::after{
+    width: 100%;
+}
+#btn-5:hover span::before, #btn-5:hover span::after{
+    height: 100%;
+}
+
+#btn-5::after{
+    left:0;
+    bottom: 0;
+    transition-duration: 0.4s;
+}
+#btn-5 span::after{
+    right:0;
+    top: 0;
+    transition-duration: 0.4s;
+}
+#btn-5::before{
+    right: 0;
+    top: 0;
+    transition-duration: 0.4s;
+}
+#btn-5 span::before{
+    left: 0;
+    bottom: 0;
+    transition-duration: 0.4s;
+}
+
+
+/* .btn-secondary{
     border-width: medium;
     border-radius: 0;
     text-transform: uppercase;
@@ -108,7 +173,7 @@ body{
 .btn-secondary:hover{
     background-color: #3498db;
     border-color: #3498db;
-}
+} */
 
 .ali{
     border-radius: 50%;
