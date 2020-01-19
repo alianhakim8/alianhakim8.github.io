@@ -28,6 +28,12 @@ body{
     height: 3rem;
 }
 
+
+.navbar-brand:active{
+    border: none;
+}
+
+
 .navbar-brand img{
     width: 150px;
 }
