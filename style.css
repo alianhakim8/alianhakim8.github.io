@@ -180,6 +180,9 @@ span::before, span::after{
     transition-duration: 0.4s;
 }
 
+#about{
+    padding-top: 10px
+}
 
 /* .btn-secondary{
     border-width: medium;
