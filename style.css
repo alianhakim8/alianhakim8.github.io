@@ -80,6 +80,10 @@ body{
     width: 100%;
     transition: width .3s;
 }
+
+a{
+    outline: 0;
+}
 /* --- Landing Page --- */
 
 .home-inner{
