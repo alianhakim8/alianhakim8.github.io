@@ -4,8 +4,8 @@ html {
 
 body{
     /* overflow: hidden; */
-    font-family: 'Lato', sans-serif;
     color: #505962;
+    font-family: arial;
 }
 
 .offset::before{
@@ -16,6 +16,7 @@ body{
 }
 /*----- Navigation -----*/
 .navbar{
+    font-family: 'Graduate', cursive;
     text-transform: uppercase;
     font-weight: 700;
     font-size: .9rem;
