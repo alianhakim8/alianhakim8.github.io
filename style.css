@@ -87,7 +87,7 @@ a{
 /* --- Landing Page --- */
 
 .home-inner{
-    background-image: url(img/cover2.jpg);
+    background-image: url(img/cover.png);
 }
 
 .caption{
@@ -108,10 +108,13 @@ a{
 }
 
 .caption h3{
-    font-size: 1.2rem;
-    text-shadow: .1rem .1rem .5rem black;
+    font-size: 1.3rem;
+    /* text-shadow: .1rem .1rem .5rem black; */
     padding-bottom: 1.6rem;
+    text-align: center;
+    position: relative;
 }
+
 
 /* .btn-lg{
     border-width: medium;
@@ -140,7 +143,7 @@ a{
     position: relative;
     background: none;
     border: none;
-    color: #fff;
+    color: white;
     font-size: 18px;
     cursor: pointer;
     margin: 20px 30px;
@@ -156,7 +159,7 @@ span{
     height: 2px;
     position: absolute;
     transition: all 0.2s linear;
-    background: #fff;
+    background: white;
 }
   
 span::before, span::after{
@@ -165,7 +168,7 @@ span::before, span::after{
     height:0;
     position: absolute;
     transition: all 0.2s linear;
-    background: #fff;
+    background: white;
 }
 #btn-5:hover::before, #btn-5:hover::after{
     width: 100%;
@@ -195,6 +198,10 @@ span::before, span::after{
     transition-duration: 0.4s;
 }
 
+#btn-5:hover{
+    color:#2a4181;
+    transition: 300ms;
+}
 #about{
     padding-top: 10px
 }
