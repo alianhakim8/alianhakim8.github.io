@@ -223,6 +223,14 @@ span::before, span::after{
     border-color: #3498db;
 } */
 
+label{
+    color: #ffffff;
+    display: block;
+    font-size: 0.9em;
+    font-weight: 300;
+    margin: 0 0 1em 0;
+}
+
 .ali{
     border-radius: 50%;
 }

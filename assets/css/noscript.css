@@ -13,3 +13,11 @@
 	body.landing.is-preload:after {
 		display: none;
 	}
+
+	label{
+		color: #ffffff;
+		display: block;
+		font-size: 0.9em;
+		font-weight: 300;
+		margin: 0 0 1em 0;
+	}
