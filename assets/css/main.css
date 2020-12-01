@@ -3344,8 +3344,7 @@ body.is-touch #banner {
 /* Footer */
 
 #footer {
-    background: rgb(39, 40, 51);
-    background-image: -webkit-linear-gradient(top, rgba(40, 46, 82, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");
+    background: #272833;
     padding: 6em 0;
     text-align: center;
 }
